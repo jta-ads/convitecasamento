@@ -10,52 +10,33 @@
 
 <body>
    {% include 'parciais/_nave.html'%}
+
+   <div class="container">
+      <div class="wrapper"> <!-- EMBRULHO -->
+        <div class="slider-holder">
+          <div id="slider-image-1">Ola</div>
+          <div id="slider-image-2">ola</div>
+          <div id="slider-image-3">ola</div>
+        </div>
+      </div>
+      <div class="button-holder">
+        <a href="#slider-image-1" class="dots"></a><!-- pontos -->
+        <a href="#slider-image-2" class="dots"></a>
+        <a href="#slider-image-3" class="dots"></a>
+      </div>
+   </div>
    
-  <div class="slider">
-    
-    <div class="slides">
-      <!--Radio Buttons-->
-      <input type="radio" name="radio-btn" id="radio1">
-      <input type="radio" name="radio-btn" id="radio2">
-      <input type="radio" name="radio-btn" id="radio3">
-      <!--Fim Radio Buttons-->
-
-      <!--Slide Images-->
-      <div class=" slide first">
-        <img src="{%static 'vendor/bootstrap/img/1.jpg' %}"alt="Images 1"/>
-      </div>
-      <div class=" slide">
-        <img src="{%static 'vendor/bootstrap/img/2.jpg' %}"alt="Images 2"/>
-      </div>
-      <div class=" slide">
-        <img src="{%static 'vendor/bootstrap/img/3.jpg' %}"alt="Images 3"/>
-      </div>
-      <!--Fim Slide Images-->
-
-      <!--navegation auto-->
-      <div class="navegation-auto">
-        <div class="auto-btn1"></div>
-        <div class="auto-btn2"></div>
-        <div class="auto-btn3"></div>
-        <!-- fim navegation auto-->
-      </div>
-    </div>
-
-    <div class="manual-navegation">
-      <label for="radio1" class="manual1-btn"></label>
-      <label for="radio2" class="manual1-btn"></label>
-      <label for="radio3" class="manual1-btn"></label>
-    </div>
-
-  </div>
-
-  <!-- Page Content -->
+   
+   
+   
+   
+   <!-- Page Content -->
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-
+        
         {%block conteudo %}{%endblock%}
-
+        
       </div>
     </div>
   </div>
