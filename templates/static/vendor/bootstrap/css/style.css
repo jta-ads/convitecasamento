@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(to right, #d0e2da, rgb(98, 141, 92) );
+    background: linear-gradient(to right, #d0e2da, rgb(114, 68, 116));
 }
 
 .container .wrapper{
@@ -62,7 +62,3 @@ body{
     100%{transform: translateX(0%)}
 }
 
-.container .slider-holder{
-    font-family: Snell Roundhand, cursive;
-    text-align: center;
-}
